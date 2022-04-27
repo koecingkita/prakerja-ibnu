@@ -1,0 +1,109 @@
+body{
+    margin: 0;    
+}
+
+.menuNavbar{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menuNavbar a{
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menuNavbar a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+
+.main{
+    margin-top: 45px;
+    background-color: rgb(107, 190, 163);
+}
+
+#Home, #About, #Portfolio, #Blog, #Team, #Contact{
+    font-size: 140%;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    background: pink;
+    
+    height: 600px;
+}
+
+#Home{
+    padding: 50px;
+    background: url('pantai.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#About{
+    padding: 50px;
+    background-color: pink;
+}
+
+#Portfolio{
+    padding: 50px;
+    background-color: indianred;
+}
+
+#Blog{
+    padding: 50px;
+    background-color: rgb(148, 93, 148);
+}
+
+#Team{
+    padding: 50px;
+    background-color: rgb(255, 233, 106);
+}
+
+#Contact{
+    padding: 50px;
+    background-color: rgb(164, 124, 96);
+}
+
+
+
+.typewriter{
+    margin-top: 15%;
+}
+
+.typewrite{
+    text-decoration: none;
+    color: rgb(160, 179, 250);
+}
+
+.about1, .about2{
+    float: left;
+    padding: 140px;
+    background-color: #333;
+    margin: 0 10px;
+    margin-top: 10%;
+}
+
+
+.about1
+{
+    background-color: rgb(196, 80, 80);
+            
+}
+
+.about2
+{
+    background-color: rgb(193, 46, 46);
+    width: 50%;
+}
+
